@@ -1,0 +1,32 @@
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap");
+
+/*  colors  */
+:root {
+  --color-219653: #219653;
+  --color-000000: #000000;
+  --color-FFFFFF: #ffffff;
+  --color-24BC48: #24bc48;
+  --color-6FCF97: #6fcf97;
+
+  /*font-size  */
+  --heading-xxl: 35px;
+  --subheading: 30px;
+  --para-text: 18px;
+  --font-22: 22.58px;
+  --font-40: 40px;
+  --font-19: 19.67px;
+  --font-20: 20px;
+  --font-12: 12.65px;
+  --font-17: 17.56px;
+  --font-14: 14.47px;
+  --font-15: 15px;
+  --font-8: 8.08px;
+  --font-10: 10.1px;
+  --font-13: 13.47px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
