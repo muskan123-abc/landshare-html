@@ -1,0 +1,97 @@
+ :root {
+   --text-40: 40px;
+   --text-15: 15px;
+   --text-25: 25px;
+   --text-18: 18px;
+   --color-219653: #219653;
+   --color-C4C4C4: #C4C4C4;
+   --color-6FCF97: #6FCF97;
+ }
+
+ /* ==============North Dakota=== */
+ .north-dakota {
+   font-weight: 600;
+   font-size: var(--text-40);
+ }
+
+ .px-28 {
+   padding-left: 28px;
+   padding-right: 28px;
+ }
+
+ .px-37 {
+   padding-left: 37px;
+   padding-right: 37px;
+ }
+
+ .specification {
+   font-weight: 600px;
+   border-radius: 15px;
+   background-color: white;
+   color: var(--color-219653);
+   border: 2px solid var(--color-219653);
+   ;
+ }
+
+ .Description {
+   font-size: var(--text-25);
+   font-weight: 600;
+ }
+
+ .para {
+   line-height: 22.5px;
+   font-size: var(--text-15);
+ }
+
+ .highlishts {
+   color: var(--color-219653);
+ }
+
+ .buy-sell {
+   font-weight: 600;
+   font-size: var(--font-22);
+   border: 0;
+   border-radius: 20px;
+   color: white;
+   background-color: var(--color-219653);
+ }
+
+ .tokens {
+   font-size: var(--text-18);
+   font-weight: 700;
+ }
+
+ .progress {
+   border-radius: 20px;
+   background-color: var(--color-C4C4C4);
+ }
+
+ .progress-bars {
+   border-radius: 20px;
+   background-color: var(--color-219653) !important;
+ }
+
+ /* ==============Investment Summary=== */
+ .bar-details-heading {
+   font-size: var(--font-20);
+   font-weight: 600;
+ }
+
+ .bar-details {
+   font-size: var(--font-20);
+   font-weight: 400;
+ }
+
+ .color-6FCF97 {
+   color: var(--color-6FCF97);
+ }
+
+ /* =============location ===============*/
+ .location {
+   font-size: var(--font-20);
+   font-weight: 600;
+ }
+
+ .br-20 {
+   border-radius: 20px;
+ }
