@@ -1,0 +1,115 @@
+.nav-bg {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.para-text {
+    font-size: var(--para-text);
+    font-weight: 400;
+}
+
+.not-connected-btn {
+
+    font-size: var(--font-22);
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid var(--color-219653);
+    padding: 12px 25px;
+    background: var(--color-219653);
+    color: #fff;
+}
+
+.not-connected-btn:hover {
+    background: transparent;
+    color: var(--color-219653);
+}
+
+.hero-heading {
+    font-size: var(--heading-xxl);
+    font-weight: 600;
+}
+
+.hero-subHeading {
+    font-size: var(--subheading);
+    font-weight: 500;
+}
+
+.cards-bg {
+    background: linear-gradient(107.56deg, rgba(255, 255, 255, 0.7) 3.82%, rgba(255, 255, 255, 0.1) 105.27%);
+    box-shadow: 0px 4.76871px 4.76871px rgba(0, 0, 0, 0.25);
+    border-radius: 23.8435px;
+    padding-top: 41px;
+    padding-bottom: 38.08px;
+    padding-left: 89px;
+    padding-right: 131px;
+}
+
+.card-heading {
+    font-size: var(--font-23);
+    font-weight: 600;
+}
+
+.pricing-text {
+    font-size: var(--font-20);
+    font-weight: 400;
+}
+
+.dollar-text {
+    font-size: var(--font-20);
+    font-weight: 400;
+    color: var(--color-24BC48);
+}
+
+.br-bottom {
+    border-bottom: 0.702571px solid rgba(0, 0, 0, 0.2);
+}
+
+.View-property-btn {
+    font-size: var(--font-17_56);
+    font-weight: 600;
+    padding: 6.32px 107.71px;
+    background: transparent;
+    color: var(--color-219653);
+    border: 1.40514px solid #24BC48;
+    border-radius: 14.0514px;
+}
+
+.View-property-btn:hover {
+    background: var(--color-219653);
+    color: #fff;
+}
+
+.Expected-text {
+    font-size: var(--font-13_47);
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: var(--font-9_84);
+    font-weight: 400;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+    .cards-bg {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .cards-bg {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    :root {
+        --font-23: 16px;
+        --font-20: 13px;
+    }
+
+    .View-property-btn {
+        padding: 6.32px 71.71px
+    }
+}

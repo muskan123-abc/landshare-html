@@ -14,6 +14,7 @@
   --subheading: 30px;
   --para-text: 18px;
   --font-22: 22px;
+  --font-23: 23px;
   --font-22_58: 22.58px;
   --font-40: 40px;
   --font-19: 19.67px;
@@ -36,5 +37,4 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
