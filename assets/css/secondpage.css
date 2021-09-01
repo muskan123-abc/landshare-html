@@ -15,14 +15,30 @@
    font-size: var(--font-40);
  }
 
+ .px-28 {
+   padding-left: 28px;
+   padding-right: 28px;
+ }
+
+ .px-37 {
+   padding-left: 37px;
+   padding-right: 37px;
+ }
+
+
+
  .specification {
-   font-size: var(--font-18);
    font-weight: 600;
    border-radius: 15px;
-   background-color: var(--color-219653);
-   color: white;
+   background-color: white;
+   color: var(--color-219653);
    border: 2px solid var(--color-219653);
    ;
+ }
+
+ .Description {
+   font-size: var(--font-25);
+   font-weight: 600;
  }
 
  .para {
@@ -88,12 +104,26 @@
    transition: background-color 0.5s;
    border: 2px solid var(--color-219653);
    background-color: #fff;
-   color: var(--color-6FCF97);
+   color: var(--color-219653);
  }
 
  .green-outline-btn-hover:hover {
    transition: background-color 0.5s;
-   border: 2px solid var(--color-6FCF97);
-   background-color: var(--color-6FCF97);
+   border: 2px solid var(--color-219653);
+   background-color: var(--color-219653);
    color: white;
+ }
+
+ @media (max-width:576px) {
+   .px-28 {
+     padding-left: 22px;
+     padding-right: 22px;
+   }
+
+   .px-37 {
+     padding-left: 31px;
+     padding-right: 31px;
+   }
+
+
  }
