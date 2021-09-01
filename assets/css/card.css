@@ -1,0 +1,55 @@
+body {
+  background-image: url("../img/png/card_background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+}
+.cards {
+  font-family: "Roboto", sans-serif;
+}
+.guest-btn {
+  font-weight: 600 !important;
+  font-size: var(--font-15) !important;
+  border-radius: 15px !important;
+  border: 2px solid #000 !important;
+}
+.guest-btn:focus {
+  box-shadow: none !important;
+}
+.guest-shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.box {
+  border-radius: 27px;
+  background: linear-gradient(
+    168.32deg,
+    rgba(255, 255, 255, 0.376) 0.46%,
+    rgba(255, 255, 255, 0.592) 99.08%
+  );
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.br-13 {
+  border-radius: 13px;
+}
+.w-272 {
+  width: 272px !important;
+}
+.color-6FCF97 {
+  color: #6fcf97;
+}
+
+.deposit-btn {
+  font-weight: 400 !important;
+  font-size: var(--font-10_1) !important;
+  background-color: #6fcf97 !important;
+  border-radius: 10px !important;
+}
+.deposit-btn:focus {
+  box-shadow: none !important;
+}
+.reference {
+  font-weight: 400 !important;
+  font-size: var(--font-13_47) !important;
+  color: var(--color-6FCF97);
+}

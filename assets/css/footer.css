@@ -1,0 +1,19 @@
+footer {
+  background: rgba(33, 150, 83, 0.1);
+}
+.footer-heading {
+  font-weight: 600;
+  font-size: var(--para-text);
+  color: var(--color-000000);
+}
+.footer-para {
+  font-weight: 400;
+  font-size: var(--font-12);
+  color: var(--color-000000);
+  max-width: 739px;
+}
+.copyright {
+  font-weight: 600;
+  font-size: var(--font-15);
+  color: var(--color-000000);
+}
