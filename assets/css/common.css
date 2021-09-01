@@ -13,17 +13,25 @@
   --heading-xxl: 35px;
   --subheading: 30px;
   --para-text: 18px;
-  --font-22: 22.58px;
+  --font-22: 22px;
+  --font-22_58: 22.58px;
   --font-40: 40px;
   --font-19: 19.67px;
   --font-20: 20px;
-  --font-12: 12.65px;
-  --font-17: 17.56px;
-  --font-14: 14.47px;
+  --font-25: 25px;
+  --font-12: 12px;
+  --font-12_13: 12.13px;
+  --font-12_65: 12.65px;
+  --font-14_47: 14.47px;
   --font-15: 15px;
-  --font-8: 8.08px;
-  --font-10: 10.1px;
-  --font-13: 13.47px;
+  --font-16_53: 16.53px;
+  --font-17_56: 17.56px;
+  --font-19_67: 19.67px;
+  --font-8_8: 8.08px;
+  --font-9_84: 9.84px;
+  --font-10_1: 10.1px;
+  --font-13_47: 13.47px;
+
 }
 
 body {
